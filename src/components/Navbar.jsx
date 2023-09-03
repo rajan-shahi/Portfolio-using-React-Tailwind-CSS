@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from 'react-icons/fa';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsFacebook } from 'react-icons/bs';
+import { BsFillPersonPlusFill } from 'react-icons/bs';
 import logo from "../assets/logo1.png";
 const Navbar = () => {
 const [nav,setNev] =useState(false)
@@ -37,7 +42,9 @@ const handleClick = () => setNev(!nav)
       <div className=" flex fixed flex-col top-[35%] left-0">
         <ul>
           <li>
-            <a href="/"></a>
+            <a href="/">
+              Linkedin <BsFacebook/>
+            </a>
           </li>
         </ul>
       </div>
