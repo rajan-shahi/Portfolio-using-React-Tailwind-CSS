@@ -6,6 +6,7 @@ import { BsGithub } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonPlusFill } from 'react-icons/bs';
 import logo from "../assets/logo1.png";
+import { Link } from 'react-scroll';
 const Navbar = () => {
 const [nav,setNev] =useState(false)
 const handleClick = () => setNev(!nav)
